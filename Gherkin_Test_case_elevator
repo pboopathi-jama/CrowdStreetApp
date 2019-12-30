@@ -1,9 +1,9 @@
 cenario Outline: Elevator goes from 0th floor to 10th floor
-    Given	User can select number from the keypad
+    Given User can select number from the keypad
      When 	The user selects a <number>
-     Then		Elevator stops 	in the floor <number>
-      And     The user sees the number displayed on the screen above
-      But     The user should not see the number "1" displayed on the screen
+     Then	Elevator stops 	in the floor <number>
+      And  The user sees the number displayed on the screen above
+      But  The user should not see the number "1" displayed on the screen
   
     Examples: number
   
